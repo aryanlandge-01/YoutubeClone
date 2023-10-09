@@ -22,10 +22,11 @@ const Videocontainer = () => {
 
 
     }
-    console.log(videos);
+    // console.log(videos);
 
     return (
-        <div className="flex flex-wrap">
+        <div className="flex w-full  flex-wrap">
+            {/* {videos && <Redbordervideocard info={videos[0]} />} */}
             {
                 videos.map((video) => (
                     <Link key={video.id} to={"/watch?v=" + video.id}>

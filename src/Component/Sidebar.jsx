@@ -1,7 +1,7 @@
 
 const Sidebar = () => {
     return (
-        <div className="w-52 bg-white shadow-lg  fixed max-h-full cursor-pointer overflow-y-scroll text-sm">
+        <div className="w-52 mt-20  bg-white shadow-lg fixed max-h-full cursor-pointer overflow-y-scroll text-sm">
 
             <ul className="m-3 p-2">
                 <li>

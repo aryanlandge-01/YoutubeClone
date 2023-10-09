@@ -8,7 +8,7 @@ const Buttonlist = () => {
     ];
 
     return (
-        <div className="flex  cursor-pointer overflow-x-auto">
+        <div className="flex mt-20   cursor-pointer overflow-x-auto">
 
             {list.map((item, index) => (
                 <Button key={index} name={item} />
